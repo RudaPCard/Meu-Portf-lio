@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+     
+}
+
+.img-fundo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.front-end {
+    position: relative;
+    z-index: 2;
+    margin-left: 50%;
+    margin-top: 10%;
+    width: 40%;
+    height: 60%;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    z-index: 2;
+    margin-left: 65%;
+    margin-top: 30%;
+}
+
+span {
+    color: red;
+}
+
+.imagem-link {
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    margin-left: 68%;
+    margin-top: 26%;
+    background-size: cover;
+    background-image: url('/Assets/botao-verde-removebg-preview.png');
+   
+    
+}
+
+.imagem-link:hover {
+    cursor: pointer;
+}
+
+.nome {
+    margin-top: 33%;
+    font-family: "Satisfy", cursivo;
+    margin-left: 61%;
+}
+
+h4 {
+    color: white;
+    margin-left: 100%;
+    white-space: nowrap;
+    margin-top: 35%;
+   
+    
+}
